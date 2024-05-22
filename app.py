@@ -57,7 +57,7 @@ st.markdown(
 # Fungsi untuk menampilkan konten halaman berdasarkan pilihan navbar
 def show_page(page):
     if page == "Home":
-        st.write("Selamat datang di Aplikasi Analisis Data Penjualan dengan Apriori.")
+        st.write("Selamat datang di Aplikasi Analisis Toko Tanaman Hias dengan Metode Apriori.")
 
 # Mendapatkan halaman yang dipilih
 page = st.session_state.get("page", "Home")
@@ -108,7 +108,7 @@ st.markdown(
 )
 
 # Judul halaman
-st.markdown('<h1 class="title-text">Analisis Data Penjualan dengan Apriori</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="title-text">Analisis Toko Tanaman Hias dengan Metode Apriori</h1>', unsafe_allow_html=True)
 
 # Menampilkan gambar header di tengah halaman
 col1, col2, col3 = st.columns([1, 3, 1])
